@@ -1287,7 +1287,7 @@ function create_if_block(ctx) {
 		h() {
 			attr(img, "alt", img_alt_value = /*item*/ ctx[3].image.alt);
 			if (!src_url_equal(img.src, img_src_value = /*item*/ ctx[3].image.url)) attr(img, "src", img_src_value);
-			attr(img, "class", "svelte-gw68d4");
+			attr(img, "class", "svelte-1b1djvu");
 		},
 		m(target, anchor) {
 			insert_hydration(target, img, anchor);
@@ -1384,13 +1384,13 @@ function create_each_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(p, "class", "short-quote svelte-gw68d4");
-			attr(div0, "class", "long-quote svelte-gw68d4");
-			attr(span0, "class", "name svelte-gw68d4");
-			attr(span1, "class", "title svelte-gw68d4");
-			attr(div1, "class", "details svelte-gw68d4");
-			attr(div2, "class", "info svelte-gw68d4");
-			attr(li, "class", "svelte-gw68d4");
+			attr(p, "class", "short-quote svelte-1b1djvu");
+			attr(div0, "class", "long-quote svelte-1b1djvu");
+			attr(span0, "class", "name svelte-1b1djvu");
+			attr(span1, "class", "title svelte-1b1djvu");
+			attr(div1, "class", "details svelte-1b1djvu");
+			attr(div2, "class", "info svelte-1b1djvu");
+			attr(li, "class", "svelte-1b1djvu");
 		},
 		m(target, anchor) {
 			insert_hydration(target, li, anchor);
@@ -1488,10 +1488,10 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h2, "class", "heading svelte-gw68d4");
-			attr(ul, "class", "cards svelte-gw68d4");
-			attr(div, "class", "section-container svelte-gw68d4");
-			attr(section, "class", "svelte-gw68d4");
+			attr(h2, "class", "heading svelte-1b1djvu");
+			attr(ul, "class", "cards svelte-1b1djvu");
+			attr(div, "class", "section-container svelte-1b1djvu");
+			attr(section, "class", "svelte-1b1djvu");
 		},
 		m(target, anchor) {
 			insert_hydration(target, section, anchor);
